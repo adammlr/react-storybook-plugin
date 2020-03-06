@@ -6,6 +6,7 @@ const StyledBox = styled.div`
   align-items: center;
   background-color: ${props => props.theme.palette.background.default};
   border-radius: 4px;
+  border: solid 1px ${props => props.theme.palette.primary.main};
   display: flex;
   height: 100px;
   justify-content: center;
